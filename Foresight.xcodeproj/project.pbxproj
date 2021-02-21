@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3A77DB325E29CF400DA4D29 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB025E29CF400DA4D29 /* WeatherService.swift */; };
+		A3A77DB425E29CF400DA4D29 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB125E29CF400DA4D29 /* Weather.swift */; };
+		A3A77DB525E29CF400DA4D29 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB225E29CF400DA4D29 /* WeatherView.swift */; };
+		A3A77DBA25E2A4E600DA4D29 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB925E2A4E600DA4D29 /* WeatherViewModel.swift */; };
 		A3FA14FC25E29BB1008F83C6 /* ForesightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA14FB25E29BB1008F83C6 /* ForesightApp.swift */; };
-		A3FA14FE25E29BB1008F83C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA14FD25E29BB1008F83C6 /* ContentView.swift */; };
 		A3FA150025E29BB4008F83C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA14FF25E29BB4008F83C6 /* Assets.xcassets */; };
 		A3FA150325E29BB4008F83C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA150225E29BB4008F83C6 /* Preview Assets.xcassets */; };
 		A3FA150825E29BB4008F83C6 /* Foresight WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A3FA150725E29BB4008F83C6 /* Foresight WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -66,9 +69,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A3A77DB025E29CF400DA4D29 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		A3A77DB125E29CF400DA4D29 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		A3A77DB225E29CF400DA4D29 /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		A3A77DB925E2A4E600DA4D29 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		A3FA14F825E29BB1008F83C6 /* Foresight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foresight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3FA14FB25E29BB1008F83C6 /* ForesightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForesightApp.swift; sourceTree = "<group>"; };
-		A3FA14FD25E29BB1008F83C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3FA14FF25E29BB4008F83C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3FA150225E29BB4008F83C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3FA150425E29BB4008F83C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,8 +135,11 @@
 			isa = PBXGroup;
 			children = (
 				A3FA14FB25E29BB1008F83C6 /* ForesightApp.swift */,
-				A3FA14FD25E29BB1008F83C6 /* ContentView.swift */,
 				A3FA14FF25E29BB4008F83C6 /* Assets.xcassets */,
+				A3A77DB125E29CF400DA4D29 /* Weather.swift */,
+				A3A77DB025E29CF400DA4D29 /* WeatherService.swift */,
+				A3A77DB925E2A4E600DA4D29 /* WeatherViewModel.swift */,
+				A3A77DB225E29CF400DA4D29 /* WeatherView.swift */,
 				A3FA150425E29BB4008F83C6 /* Info.plist */,
 				A3FA150125E29BB4008F83C6 /* Preview Content */,
 			);
@@ -308,8 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3FA14FE25E29BB1008F83C6 /* ContentView.swift in Sources */,
+				A3A77DBA25E2A4E600DA4D29 /* WeatherViewModel.swift in Sources */,
+				A3A77DB325E29CF400DA4D29 /* WeatherService.swift in Sources */,
+				A3A77DB425E29CF400DA4D29 /* Weather.swift in Sources */,
 				A3FA14FC25E29BB1008F83C6 /* ForesightApp.swift in Sources */,
+				A3A77DB525E29CF400DA4D29 /* WeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +470,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Foresight WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = C66GEQ6DAN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Foresight WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,6 +494,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Foresight WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = C66GEQ6DAN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Foresight WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,6 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C66GEQ6DAN;
 				IBSC_MODULE = Foresight_WatchKit_Extension;
 				INFOPLIST_FILE = "Foresight WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lukewilkinson.Foresight.watchkitapp;
@@ -525,6 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C66GEQ6DAN;
 				IBSC_MODULE = Foresight_WatchKit_Extension;
 				INFOPLIST_FILE = "Foresight WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lukewilkinson.Foresight.watchkitapp;
@@ -544,7 +560,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_STYLE[sdk=*]" = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Foresight/Preview Content\"";
+				DEVELOPMENT_TEAM = C66GEQ6DAN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Foresight/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
@@ -566,7 +584,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_STYLE[sdk=*]" = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Foresight/Preview Content\"";
+				DEVELOPMENT_TEAM = C66GEQ6DAN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Foresight/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
