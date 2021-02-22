@@ -8,13 +8,14 @@
 import SwiftUI
 
 @main
-struct ForesightApp: App {
+struct ForesightWatchApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
-            NavigationView {
-                ContentView()
+			let weatherService = WeatherService()
+			let viewModel = WeatherViewModel(weatherService: weatherService)
+			WatchView(viewModel: viewModel)
             }
-        }
+        
 
         WKNotificationScene(controller: NotificationController.self, category: "myCategory")
     }

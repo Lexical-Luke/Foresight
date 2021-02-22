@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A333AAEE25E411DB0052B536 /* ForesightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A333AAE925E411D40052B536 /* ForesightApp.swift */; };
+		A333AB0A25E414C50052B536 /* ForesightWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151825E29BB7008F83C6 /* ForesightWatchApp.swift */; };
+		A333AB0B25E414C50052B536 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151A25E29BB7008F83C6 /* WatchView.swift */; };
+		A333AB0F25E414CB0052B536 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151A25E29BB7008F83C6 /* WatchView.swift */; };
 		A3A77DB325E29CF400DA4D29 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB025E29CF400DA4D29 /* WeatherService.swift */; };
 		A3A77DB425E29CF400DA4D29 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB125E29CF400DA4D29 /* Weather.swift */; };
 		A3A77DB525E29CF400DA4D29 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB225E29CF400DA4D29 /* WeatherView.swift */; };
 		A3A77DBA25E2A4E600DA4D29 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB925E2A4E600DA4D29 /* WeatherViewModel.swift */; };
-		A3FA14FC25E29BB1008F83C6 /* ForesightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA14FB25E29BB1008F83C6 /* ForesightApp.swift */; };
+		A3A77DD325E2C7DE00DA4D29 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB025E29CF400DA4D29 /* WeatherService.swift */; };
+		A3A77DD725E2C7F000DA4D29 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB925E2A4E600DA4D29 /* WeatherViewModel.swift */; };
+		A3A77DDB25E2C8AF00DA4D29 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB125E29CF400DA4D29 /* Weather.swift */; };
 		A3FA150025E29BB4008F83C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA14FF25E29BB4008F83C6 /* Assets.xcassets */; };
 		A3FA150325E29BB4008F83C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA150225E29BB4008F83C6 /* Preview Assets.xcassets */; };
 		A3FA150825E29BB4008F83C6 /* Foresight WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A3FA150725E29BB4008F83C6 /* Foresight WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A3FA150D25E29BB7008F83C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA150C25E29BB7008F83C6 /* Assets.xcassets */; };
 		A3FA151425E29BB7008F83C6 /* Foresight WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A3FA151325E29BB7008F83C6 /* Foresight WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		A3FA151925E29BB7008F83C6 /* ForesightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151825E29BB7008F83C6 /* ForesightApp.swift */; };
-		A3FA151B25E29BB7008F83C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151A25E29BB7008F83C6 /* ContentView.swift */; };
 		A3FA151D25E29BB7008F83C6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151C25E29BB7008F83C6 /* NotificationController.swift */; };
 		A3FA151F25E29BB7008F83C6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151E25E29BB7008F83C6 /* NotificationView.swift */; };
 		A3FA152125E29BB7008F83C6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA152025E29BB7008F83C6 /* ComplicationController.swift */; };
@@ -69,12 +73,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A333AAE925E411D40052B536 /* ForesightApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForesightApp.swift; path = Foresight/ForesightApp.swift; sourceTree = SOURCE_ROOT; };
 		A3A77DB025E29CF400DA4D29 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		A3A77DB125E29CF400DA4D29 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		A3A77DB225E29CF400DA4D29 /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		A3A77DB925E2A4E600DA4D29 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		A3FA14F825E29BB1008F83C6 /* Foresight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foresight.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3FA14FB25E29BB1008F83C6 /* ForesightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForesightApp.swift; sourceTree = "<group>"; };
 		A3FA14FF25E29BB4008F83C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3FA150225E29BB4008F83C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3FA150425E29BB4008F83C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,8 +86,8 @@
 		A3FA150C25E29BB7008F83C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3FA150E25E29BB7008F83C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3FA151325E29BB7008F83C6 /* Foresight WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Foresight WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3FA151825E29BB7008F83C6 /* ForesightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForesightApp.swift; sourceTree = "<group>"; };
-		A3FA151A25E29BB7008F83C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3FA151825E29BB7008F83C6 /* ForesightWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForesightWatchApp.swift; sourceTree = "<group>"; };
+		A3FA151A25E29BB7008F83C6 /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
 		A3FA151C25E29BB7008F83C6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		A3FA151E25E29BB7008F83C6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		A3FA152025E29BB7008F83C6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -134,8 +138,8 @@
 		A3FA14FA25E29BB1008F83C6 /* Foresight */ = {
 			isa = PBXGroup;
 			children = (
-				A3FA14FB25E29BB1008F83C6 /* ForesightApp.swift */,
 				A3FA14FF25E29BB4008F83C6 /* Assets.xcassets */,
+				A333AAE925E411D40052B536 /* ForesightApp.swift */,
 				A3A77DB125E29CF400DA4D29 /* Weather.swift */,
 				A3A77DB025E29CF400DA4D29 /* WeatherService.swift */,
 				A3A77DB925E2A4E600DA4D29 /* WeatherViewModel.swift */,
@@ -166,8 +170,8 @@
 		A3FA151725E29BB7008F83C6 /* Foresight WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				A3FA151825E29BB7008F83C6 /* ForesightApp.swift */,
-				A3FA151A25E29BB7008F83C6 /* ContentView.swift */,
+				A3FA151825E29BB7008F83C6 /* ForesightWatchApp.swift */,
+				A3FA151A25E29BB7008F83C6 /* WatchView.swift */,
 				A3FA151C25E29BB7008F83C6 /* NotificationController.swift */,
 				A3FA151E25E29BB7008F83C6 /* NotificationView.swift */,
 				A3FA152025E29BB7008F83C6 /* ComplicationController.swift */,
@@ -319,9 +323,10 @@
 			files = (
 				A3A77DBA25E2A4E600DA4D29 /* WeatherViewModel.swift in Sources */,
 				A3A77DB325E29CF400DA4D29 /* WeatherService.swift in Sources */,
+				A333AB0F25E414CB0052B536 /* WatchView.swift in Sources */,
 				A3A77DB425E29CF400DA4D29 /* Weather.swift in Sources */,
-				A3FA14FC25E29BB1008F83C6 /* ForesightApp.swift in Sources */,
 				A3A77DB525E29CF400DA4D29 /* WeatherView.swift in Sources */,
+				A333AAEE25E411DB0052B536 /* ForesightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,10 +334,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A333AB0A25E414C50052B536 /* ForesightWatchApp.swift in Sources */,
+				A3A77DDB25E2C8AF00DA4D29 /* Weather.swift in Sources */,
 				A3FA151D25E29BB7008F83C6 /* NotificationController.swift in Sources */,
-				A3FA151B25E29BB7008F83C6 /* ContentView.swift in Sources */,
 				A3FA152125E29BB7008F83C6 /* ComplicationController.swift in Sources */,
-				A3FA151925E29BB7008F83C6 /* ForesightApp.swift in Sources */,
+				A333AB0B25E414C50052B536 /* WatchView.swift in Sources */,
+				A3A77DD725E2C7F000DA4D29 /* WeatherViewModel.swift in Sources */,
+				A3A77DD325E2C7DE00DA4D29 /* WeatherService.swift in Sources */,
 				A3FA151F25E29BB7008F83C6 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

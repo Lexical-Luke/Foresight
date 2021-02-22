@@ -23,6 +23,8 @@ struct WeatherView: View {
 				.font(.largeTitle)
 				.padding()
 			Text(viewModel.weatherDescription)
+			Text("Made by Luke Wilkinson")
+				.padding()
 		}.onAppear(perform: viewModel.refresh)
     }
 }
