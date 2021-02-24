@@ -10,7 +10,7 @@
 		A333AAEE25E411DB0052B536 /* ForesightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A333AAE925E411D40052B536 /* ForesightApp.swift */; };
 		A333AB0A25E414C50052B536 /* ForesightWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151825E29BB7008F83C6 /* ForesightWatchApp.swift */; };
 		A333AB0B25E414C50052B536 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151A25E29BB7008F83C6 /* WatchView.swift */; };
-		A333AB0F25E414CB0052B536 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151A25E29BB7008F83C6 /* WatchView.swift */; };
+		A3427FFF25E548FC00637687 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA151A25E29BB7008F83C6 /* WatchView.swift */; };
 		A3A77DB325E29CF400DA4D29 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB025E29CF400DA4D29 /* WeatherService.swift */; };
 		A3A77DB425E29CF400DA4D29 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB125E29CF400DA4D29 /* Weather.swift */; };
 		A3A77DB525E29CF400DA4D29 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77DB225E29CF400DA4D29 /* WeatherView.swift */; };
@@ -323,7 +323,7 @@
 			files = (
 				A3A77DBA25E2A4E600DA4D29 /* WeatherViewModel.swift in Sources */,
 				A3A77DB325E29CF400DA4D29 /* WeatherService.swift in Sources */,
-				A333AB0F25E414CB0052B536 /* WatchView.swift in Sources */,
+				A3427FFF25E548FC00637687 /* WatchView.swift in Sources */,
 				A3A77DB425E29CF400DA4D29 /* Weather.swift in Sources */,
 				A3A77DB525E29CF400DA4D29 /* WeatherView.swift in Sources */,
 				A333AAEE25E411DB0052B536 /* ForesightApp.swift in Sources */,

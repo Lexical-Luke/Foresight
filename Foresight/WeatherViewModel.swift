@@ -14,14 +14,15 @@ private let iconMap = [
 	"Rain" : "🌧",
 	"Snow" : "❄️",
 	"Clear" : "☀️",
-	"Clouds" : "☁️",
-	"Partlycloudy" : "🌤",
-	"Windy" : "🌪",
+	"Clouds" : "⛅️",
+	//"Clouds" : "🌤",
+	//"Windy" : "🌪",
 ]
 
 public class WeatherViewModel: ObservableObject {
 	@Published var cityName: String = "--"
 	@Published var temperature: String = "--"
+	@Published var realfeel: String = "--"
 	@Published var weatherDescription: String = "--"
 	@Published var weatherIcon: String = defaultIcon
 	
@@ -36,6 +37,7 @@ public class WeatherViewModel: ObservableObject {
 			DispatchQueue.main.async {
 				self.cityName = weather.city
 				self.temperature = "\(weather.temperature)°C"
+				self.realfeel = "\(weather.realfeel)°C"
 				self.weatherDescription = weather.description.capitalized
 				self.weatherIcon = iconMap[weather.iconName] ?? defaultIcon
 			}

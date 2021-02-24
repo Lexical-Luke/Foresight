@@ -64,7 +64,7 @@ struct APIResponse: Decodable{
 
 struct APIMain: Decodable {
 	let temp: Double
-	
+	let feels_like: Double
 }
 
 struct APIWeather: Decodable {
